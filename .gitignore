@@ -1,0 +1,3 @@
+target/**/*
+calculatorServer.iml
+dependency-reduced-pom.xml
