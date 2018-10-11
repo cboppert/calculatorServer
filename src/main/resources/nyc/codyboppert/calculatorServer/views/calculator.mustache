@@ -1,0 +1,19 @@
+<!DOTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+
+    <body>
+        <form id="calculator-form" action="GET">
+            <h1>Simple Calculator</h1>
+            ((<input name="a" type="number" min="{{ floatMin }}" max="{{ floatMax }}" value="{{ a }}"> +
+            <input name="b" type="number" min="{{ floatMin }}" max="{{ floatMax }}" value="{{ b }}">) *
+            <input name="c" type="number" min="{{ floatMin }}" max="{{ floatMax }}" value="{{ c }}">) /
+            <input name="d" type="number" min="{{ floatMin }}" max="{{ floatMax }}" value="{{ d }}">
+
+            <button type="submit">Calculate</button>
+        </form>
+        <h3>{{ result }}</h3>
+    </body>
+</html>
